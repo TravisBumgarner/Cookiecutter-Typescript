@@ -1,0 +1,17 @@
+{
+  "name": "{{ cookiecutter.project_name }}-sandbox",
+  "author": "{{ cookiecutter.author }}",
+  "scripts": {
+    "sd:sb": "ts-node-dev ./index.ts"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ts-node": "^10.4.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "ts-node-dev": "^1.1.8"
+  }
+}
