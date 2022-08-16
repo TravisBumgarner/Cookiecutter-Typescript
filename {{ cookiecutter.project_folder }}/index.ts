@@ -1,3 +1,5 @@
-import foo from "./src";
+import "dotenv/require"
 
-console.log(foo('bar'))
+import app from "./src";
+
+console.log(app.main())

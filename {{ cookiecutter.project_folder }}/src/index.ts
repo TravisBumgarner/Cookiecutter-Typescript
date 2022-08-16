@@ -1,5 +1,7 @@
-const foo = (bar: string): string => {
-    return bar
+const main = () => {
+    console.log('hello')
 }
 
-export default foo
+export default {
+    main
+}

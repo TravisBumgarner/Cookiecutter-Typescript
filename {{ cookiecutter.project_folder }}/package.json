@@ -2,7 +2,8 @@
   "name": "{{ cookiecutter.project_name }}-sandbox",
   "author": "{{ cookiecutter.author }}",
   "scripts": {
-    "sd:sb": "ts-node-dev ./index.ts"
+    "sd": "ts-node-dev ./index.ts",
+    "lint": "lint"
   },
   "keywords": [],
   "license": "ISC",
