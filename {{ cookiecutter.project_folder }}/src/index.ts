@@ -1,3 +1,5 @@
+// import config from './config'
+
 const main = () => {
     console.log('hello')
 }

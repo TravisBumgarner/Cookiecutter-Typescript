@@ -1,5 +1,5 @@
-import "dotenv/require"
+require('dotenv').config()
 
 import app from "./src";
 
-console.log(app.main())
+app.main()
