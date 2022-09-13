@@ -2,7 +2,7 @@
 
 cd {{cookiecutter.project_folder}}
 
-npm i
+yarn
 
 touch .env
 
