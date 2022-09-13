@@ -1,5 +1,5 @@
 import { String, Record } from 'runtypes'
-import 'dotenv/configure'
+import 'dotenv/config'
 
 const Env = Record({
     foo: String,
