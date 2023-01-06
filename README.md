@@ -1,1 +1,4 @@
-1. python -m cookiecutter gh:travisbumgarner/cookiecutter-typescript
+# Usage
+
+1. `brew install cookiecutter`
+2. `cookiecutter gh:TravisBumgarner/cookiecutter-typescript`
